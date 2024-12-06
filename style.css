@@ -114,7 +114,6 @@ div.content {
   margin-top: 50px;
   margin-bottom: 0px;
   padding: 1px 16px;
-  height: 1000px;
   text-align: center;
 }
 
@@ -125,3 +124,35 @@ div.content {
     float: none;
   }
 } 
+
+.collapsible {
+  background-color: #c3d1e8;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* info boxes */ 
+.infobox {
+  position: relative;
+  background-color: #ededed;
+  color: black;
+  display: inline-block;
+  padding: 1%;
+  text-align: center;
+  line-height: 1;
+}
+.subinfo {
+  position: relative;
+  background-color: #dedede;
+  color: black;
+  margin:0.5%;
+  display: inline-block;
+  text-align: left;
+  padding: 0.5%
+}
