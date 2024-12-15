@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href='https://fonts.googleapis.com/css?family=Lexend' rel='stylesheet'>
+		<title>program dnia.</title>
+		<style>
+		html, body {
+			height: 100%;
+			}
+
+			html {
+				display: table;
+				margin: auto;
+			}
+
+			body {
+				display: table-cell;
+				vertical-align: middle;
+				background-color:black;
+			}
+		</style>
+		<meta property="og:site_name" content="transportfoxie">
+		<meta property="og:url" content="https://transportfoxie.pl/program_dnia">
+		<meta property="og:type" content="video.other">
+		<meta property="og:title" content="program dnia.">
+		<meta property="og:video" content="lpt.mp4">
+		<meta property="og:video:type" content="video/mp4">
+		<meta property="og:video:secure_url" content="https://transportfoxie.pl/lpt.mp4">
+		<meta property="og:video:height" content="360">
+		<meta property="og:video:width" content="480">
+		<link rel="icon" type="image/x-icon" href="favicon.png">
+	</head>
+	<body>
+		
+		<video id="lptp" width="480" height="360" autoplay="autoplay">
+			<source src="lpt.mp4" type="video/mp4" />
+		</video>
+		<br>
+		<button onclick="playVid()" type="button" style="background-color:black;color:white;">☼</button>
+		<script> 
+			let vid = document.getElementById("lptp"); 
+
+			function playVid() { 
+			  vid.play(); 
+			} 
+
+			function pauseVid() { 
+			  vid.pause(); 
+			} 
+			
+		</script> 
+	</body>
+</html> 
